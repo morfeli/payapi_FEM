@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+@import "partial";
+
+header {
+  background-color: #edf3f8;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -132,4 +138,64 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     height: 80vh;
     width: 100%;
   }
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4rem;
+  &--phone {
+    width: 128px;
+    height: 240px;
+  }
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    width: 327px;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &--startBox {
+    width: 327px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &--btn {
+    width: 327px;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: $darkpink;
+  }
+  &--description {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    color: $light-san-juan-blue;
+  }
+  &--a {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    color: $light-san-juan-blue;
+    text-decoration: none;
+    font-weight: 900;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input#email-input {
+  width: 327px;
+  padding: 1rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  border: none;
 }
