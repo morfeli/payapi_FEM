@@ -9,6 +9,96 @@ header {
   background-color: #edf3f8;
 }
 
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 4rem;
+}
+
+.header__container--phone {
+  width: 128px;
+  height: 240px;
+}
+
+.header__container--title {
+  font-family: "DM Serif Display", serif;
+  color: #37546d;
+  width: 327px;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header__container--startBox {
+  width: 327px;
+  height: 285px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__container--btn {
+  width: 327px;
+  padding: 1rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #b9416f;
+}
+
+.header__container--description {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  color: #6b8294;
+}
+
+.header__container--a {
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  color: #6b8294;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+input#email-input {
+  width: 327px;
+  padding: 1rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  border: none;
+}
+
 .bitmap {
   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
@@ -176,93 +266,46 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
-.header__container {
+.partners__container {
+  height: 670px;
+  background-color: #1c2731;
+}
+
+.partners__container--imgBox {
+  width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  height: 300px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-bottom: 4rem;
 }
 
-.header__container--phone {
-  width: 128px;
-  height: 240px;
-}
-
-.header__container--title {
-  font-family: "DM Serif Display", serif;
-  color: #37546d;
+.partners__container--textBox {
+  margin: 0 auto;
   width: 327px;
-  font-size: 2rem;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
-.header__container--startBox {
-  width: 327px;
-  height: 285px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.header__container--btn {
-  width: 327px;
-  padding: 1rem;
-  border-radius: 30px;
+.partners__container--title {
+  font-family: "DM Serif Display", serif;
+  color: white;
+  font-size: 2rem;
   margin-bottom: 1rem;
-  border: none;
-  background-color: #b9416f;
 }
 
-.header__container--description {
+.partners__container--description {
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
-  color: #6b8294;
-}
-
-.header__container--a {
-  font-family: "Public Sans", sans-serif;
-  font-size: 15px;
-  color: #6b8294;
-  text-decoration: none;
-  font-weight: 900;
-}
-
-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-input#email-input {
-  width: 327px;
-  padding: 1rem;
-  border-radius: 30px;
+  line-height: 30px;
   margin-bottom: 1rem;
-  border: none;
+  color: #b3b3b3;
 }
 /*# sourceMappingURL=index.css.map */

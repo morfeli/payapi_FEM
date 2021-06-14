@@ -10,6 +10,66 @@ header {
   background-color: #edf3f8;
 }
 
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 4rem;
+  &--phone {
+    width: 128px;
+    height: 240px;
+  }
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    width: 327px;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &--startBox {
+    width: 327px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &--btn {
+    width: 327px;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: $darkpink;
+  }
+  &--description {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    color: $light-san-juan-blue;
+  }
+  &--a {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    color: $light-san-juan-blue;
+    text-decoration: none;
+    font-weight: 900;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input#email-input {
+  width: 327px;
+  padding: 1rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  border: none;
+}
+
 .bitmap {
   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
@@ -146,62 +206,34 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
-.header__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 4rem;
-  &--phone {
-    width: 128px;
-    height: 240px;
+.partners__container {
+  height: 670px;
+  background-color: $mirage-blue;
+  &--imgBox {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 300px;
+    align-items: center;
+  }
+  &--textBox {
+    margin: 0 auto;
+    width: 327px;
+    text-align: center;
   }
   &--title {
     font-family: "DM Serif Display", serif;
-    color: $san-juan-blue;
-    width: 327px;
+    color: white;
     font-size: 2rem;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  &--startBox {
-    width: 327px;
-    height: 285px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  &--btn {
-    width: 327px;
-    padding: 1rem;
-    border-radius: 30px;
     margin-bottom: 1rem;
-    border: none;
-    background-color: $darkpink;
   }
   &--description {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
-    color: $light-san-juan-blue;
+    line-height: 30px;
+    margin-bottom: 1rem;
+    color: hsl(0, 0%, 70%);
   }
-  &--a {
-    font-family: "Public Sans", sans-serif;
-    font-size: 15px;
-    color: $light-san-juan-blue;
-    text-decoration: none;
-    font-weight: 900;
-  }
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-input#email-input {
-  width: 327px;
-  padding: 1rem;
-  border-radius: 30px;
-  margin-bottom: 1rem;
-  border: none;
 }
