@@ -1,0 +1,33 @@
+// Color Variables
+$darkpink: hsl(337, 48%, 49%);
+$link-water-white: hsl(220, 60%, 99%);
+$san-juan-blue: hsl(207, 33%, 32%);
+$mirage-blue: hsl(207, 27%, 15%);
+$light-san-juan-blue: hsl(207, 16%, 50%);
+$charm-pink-actives: hsl(337, 60%, 64%);
+
+// Button Variables
+$normal-btn-state: #ba4270;
+$hover-btn-state: #da6d97;
+
+$mobile: 375px;
+$tablet: 768px;
+$desktop: 1440px;
+
+@mixin mobile {
+  @media (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
