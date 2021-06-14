@@ -236,4 +236,16 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     margin-bottom: 1rem;
     color: hsl(0, 0%, 70%);
   }
+  &--btn {
+    width: 129px;
+    height: 48px;
+    padding: 0.5rem;
+    border-radius: 30px;
+    margin-top: 3rem;
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    font-size: 1rem;
+  }
 }
