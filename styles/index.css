@@ -9,6 +9,12 @@ header {
   background-color: #edf3f8;
 }
 
+.bitmap {
+  background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 500%;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
