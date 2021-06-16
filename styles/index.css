@@ -108,6 +108,13 @@ input#email-input {
   background-position: 50% 500%;
 }
 
+.bitmap2 {
+  background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  height: 618px;
+  background-position: 50% 375%;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
