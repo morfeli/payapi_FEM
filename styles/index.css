@@ -331,4 +331,23 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   border-color: white;
   font-size: 1rem;
 }
+
+.hero__container {
+  background-color: #edf3f8;
+}
+
+.hero__container--svg {
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.hero__container--box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 /*# sourceMappingURL=index.css.map */
