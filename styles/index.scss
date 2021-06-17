@@ -398,3 +398,45 @@ input#email {
   margin-bottom: 1rem;
   border: none;
 }
+
+.footer__container {
+  background-color: $mirage-blue;
+  height: 353px;
+
+  &--icons {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+  }
+  &--ul {
+    flex-direction: column;
+    display: flex;
+    height: 115px;
+    justify-content: space-around;
+  }
+  &--li {
+    list-style: none;
+  }
+  &--a {
+    text-decoration: none;
+    color: hsl(0, 0%, 70%);
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+  }
+}
+
+.footer__container--img path,
+g {
+  fill: white;
+}
+
+.bitmap3 {
+  background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: 50% -44%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 353px;
+}
