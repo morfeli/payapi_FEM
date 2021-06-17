@@ -262,15 +262,139 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 
 .hero__container {
   background-color: #edf3f8;
-
-  &--svg {
-    border-radius: 10px;
-    margin: 0 auto;
-  }
 }
 
-.hero__container--box1 {
+.implement__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  &--svg {
+    border-radius: 30px;
+    margin: 0 auto;
+  }
+
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  &--description {
+    width: 350px;
+    text-align: center;
+    line-height: 25px;
+    font-family: "Public Sans", sans-serif;
+    color: $san-juan-blue;
+  }
+
+  &--textBox {
+    margin-bottom: 2rem;
+  }
+}
+
+.simple__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &--textBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  &--description {
+    width: 350px;
+    text-align: center;
+    line-height: 25px;
+    font-family: "Public Sans", sans-serif;
+    color: $san-juan-blue;
+  }
+}
+
+.hero__container--img1 {
+  object-fit: cover;
+  width: 328px;
+  height: 209px;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.hero__container--img2 {
+  object-fit: cover;
+  width: 328px;
+  height: 290px;
+  margin-left: 2rem;
+}
+
+.benefits__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefit__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+
+  &--img {
+    margin-bottom: 2rem;
+  }
+
+  &--title {
+    margin-bottom: 2rem;
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 2rem;
+  }
+
+  &--description {
+    text-align: center;
+    width: 350px;
+    line-height: 25px;
+    font-family: "Public Sans", sans-serif;
+    color: $san-juan-blue;
+  }
+}
+
+.ready__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  &--btn {
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 327px;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: $darkpink;
+  }
+}
+
+input#email {
+  width: 327px;
+  padding: 1rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  border: none;
 }

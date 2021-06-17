@@ -176,95 +176,60 @@
     </section>
 
     <section class="hero__container">
-      <div class="hero__container--box1">
+      <section class="implement__container">
         <div class="svg__container--form">
-          <svg
-            class="hero__container--svg"
-            viewbox="0 10 600 400"
-            width="328"
-            height="209"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-          >
-            <defs>
-              <filter
-                x="-24.2%"
-                y="-37.9%"
-                width="159.6%"
-                height="193.3%"
-                filterUnits="objectBoundingBox"
-                id="a"
-              >
-                <feOffset
-                  dx="25"
-                  dy="25"
-                  in="SourceAlpha"
-                  result="shadowOffsetOuter1"
-                />
-                <feGaussianBlur
-                  stdDeviation="40"
-                  in="shadowOffsetOuter1"
-                  result="shadowBlurOuter1"
-                />
-                <feColorMatrix
-                  values="0 0 0 0 0.212302148 0 0 0 0 0.325209598 0 0 0 0 0.419299139 0 0 0 0.300726617 0"
-                  in="shadowBlurOuter1"
-                />
-              </filter>
-              <rect id="b" x="0" y="0" width="445" height="284" rx="8" />
-            </defs>
-            <g fill="none" fill-rule="evenodd">
-              <g transform="translate(55 55)">
-                <use fill="#000" filter="url(#a)" xlink:href="#b" />
-                <use fill="#1B262F" xlink:href="#b" />
-              </g>
-              <path
-                d="M63 55h429a8 8 0 018 8v32H55V63a8 8 0 018-8z"
-                fill="#2E3F4D"
-              />
-              <g transform="translate(71 67)">
-                <circle fill="#BA4270" cx="8" cy="8" r="8" />
-                <circle fill="#527695" cx="30.4" cy="8" r="8" />
-                <circle fill="#36536B" cx="52.8" cy="8" r="8" />
-              </g>
-              <text
-                font-family="RobotoMono-Regular, Roboto Mono"
-                font-size="13"
-                fill="#FBFCFE"
-                transform="translate(55 55)"
-              >
-                <tspan x="32" y="86">
-                  &lt;form id=&quot;form-id&quot; method=&quot;GET&quot;&gt;
-                  &lt;/form&gt;
-                </tspan>
-                <tspan x="32" y="106">&lt;script</tspan>
-                <tspan x="32" y="126">
-                  src=&quot;https://loremipsum.com/api.js&quot;
-                </tspan>
-                <tspan x="32" y="146">
-                  data-client-name=&quot;Your Company&apos;s Name&quot;
-                </tspan>
-                <tspan x="32" y="166">data-form-id=&quot;form-id&quot;</tspan>
-                <tspan x="32" y="186">data-key=&quot;test_key&quot;</tspan>
-                <tspan x="32" y="206">
-                  data-product=&quot;transactions&quot;
-                </tspan>
-                <tspan x="32" y="226">data-env=&quot;sandbox&quot;&gt;</tspan>
-                <tspan x="32" y="246">&lt;/script&gt;</tspan>
-              </text>
-            </g>
-          </svg>
+          <img
+            class="hero__container--img1"
+            src="./assets/home/desktop/illustration-easy-to-implement.svg"
+            alt="form-img"
+          />
         </div>
 
-        <div class="hero__container--textBox1">
-          <h1 class="hero_container--title">Easy to Implement</h1>
-          <p class="hero__container--description">
+        <div class="implement__container--textBox">
+          <h1 class="implement__container--title">Easy to Implement</h1>
+          <p class="implement__container--description">
             Our API comes with just a few lines of code. You’ll be up and
             running in no time. We built our documentation page to integrate
             payments functionality with ease.
           </p>
         </div>
-      </div>
+      </section>
+      <section class="simple__container">
+        <div class="simple__container--phoneImg">
+          <img
+            class="hero__container--img2"
+            src="./assets/home/desktop/illustration-simple-ui.svg"
+            alt="simple-phone"
+          />
+        </div>
+        <div class="simple__container--textBox">
+          <h1 class="simple__container--title">Simple UI & UX</h1>
+          <p class="simple__container--description">
+            Our pre-built form is easy to integrate in your app or website’s
+            checkout flow and designed to optimize conversion.
+          </p>
+        </div>
+        <div id="benefits__container"></div>
+      </section>
+      <section class="ready__container">
+        <h1 class="ready__container--title">Ready to start?</h1>
+        <form>
+          <div class="ready__container--form">
+            <label for="email">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Enter email address"
+              />
+            </label>
+          </div>
+
+          <button class="ready__container--btn" type="submit">
+            Schedule a Demo
+          </button>
+        </form>
+      </section>
     </section>
     <script src="./scripts/script.js"></script>
   </body>
