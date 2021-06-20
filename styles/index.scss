@@ -344,6 +344,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+    @include tablet {
+      font-size: 2.5rem;
+    }
   }
 
   &--description {
@@ -352,6 +355,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     line-height: 25px;
     font-family: "Public Sans", sans-serif;
     color: $san-juan-blue;
+    @include tablet {
+      width: 610px;
+    }
   }
 
   &--textBox {
@@ -374,6 +380,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+    @include tablet {
+      font-size: 2.5rem;
+    }
   }
   &--description {
     width: 350px;
@@ -381,6 +390,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     line-height: 25px;
     font-family: "Public Sans", sans-serif;
     color: $san-juan-blue;
+    @include tablet {
+      width: 610px;
+    }
   }
 }
 
@@ -390,6 +402,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   height: 209px;
   margin-top: 2rem;
   margin-left: 2rem;
+  @include tablet {
+    width: 391px;
+    height: 250px;
+  }
 }
 
 .hero__container--img2 {
@@ -397,6 +413,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   width: 328px;
   height: 290px;
   margin-left: 2rem;
+}
+
+#benefits__container {
+  @include tablet {
+    display: flex;
+    margin-bottom: 5rem;
+  }
 }
 
 .benefits__container {
@@ -410,9 +433,16 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   flex-direction: column;
   align-items: center;
   margin-top: 3rem;
+  @include tablet {
+    margin-right: 1rem;
+  }
 
   &--img {
     margin-bottom: 2rem;
+    @include tablet {
+      width: 88px;
+      height: 88px;
+    }
   }
 
   &--title {
@@ -420,6 +450,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-family: "DM Serif Display", serif;
     color: $san-juan-blue;
     font-size: 2rem;
+    @include tablet {
+      font-size: 18px;
+    }
   }
 
   &--description {
@@ -428,6 +461,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     line-height: 25px;
     font-family: "Public Sans", sans-serif;
     color: $san-juan-blue;
+    @include tablet {
+      font-size: 15px;
+      width: 223px;
+    }
   }
 }
 
@@ -442,6 +479,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    @include tablet {
+      font-size: 2.5rem;
+    }
   }
   &--btn {
     font-family: "Public Sans", sans-serif;
@@ -453,6 +493,16 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     margin-bottom: 1rem;
     border: none;
     background-color: $darkpink;
+    @include tablet {
+      width: 173px;
+      position: relative;
+      right: 106px;
+    }
+  }
+  &--form {
+    @include tablet {
+      margin-left: 8rem;
+    }
   }
 }
 
@@ -467,17 +517,32 @@ input#email {
 .footer__container {
   background-color: $mirage-blue;
   height: 353px;
+  @include tablet {
+    height: 100px;
+  }
 
   &--icons {
     display: flex;
     width: 120px;
     justify-content: space-between;
   }
+  &--icon {
+    @include tablet {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
   &--ul {
     flex-direction: column;
     display: flex;
     height: 115px;
     justify-content: space-around;
+    @include tablet {
+      flex-direction: unset;
+      height: unset;
+      width: 200px;
+    }
   }
   &--li {
     list-style: none;
@@ -504,4 +569,9 @@ g {
   align-items: center;
   justify-content: space-around;
   height: 353px;
+  @include tablet {
+    flex-direction: row;
+    height: 100px;
+    background-position: -2200% 22%;
+  }
 }

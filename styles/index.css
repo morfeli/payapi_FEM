@@ -467,12 +467,24 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 761px) {
+  .implement__container--title {
+    font-size: 2.5rem;
+  }
+}
+
 .implement__container--description {
   width: 350px;
   text-align: center;
   line-height: 25px;
   font-family: "Public Sans", sans-serif;
   color: #37546d;
+}
+
+@media (min-width: 761px) {
+  .implement__container--description {
+    width: 610px;
+  }
 }
 
 .implement__container--textBox {
@@ -513,12 +525,24 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 761px) {
+  .simple__container--title {
+    font-size: 2.5rem;
+  }
+}
+
 .simple__container--description {
   width: 350px;
   text-align: center;
   line-height: 25px;
   font-family: "Public Sans", sans-serif;
   color: #37546d;
+}
+
+@media (min-width: 761px) {
+  .simple__container--description {
+    width: 610px;
+  }
 }
 
 .hero__container--img1 {
@@ -530,12 +554,28 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-left: 2rem;
 }
 
+@media (min-width: 761px) {
+  .hero__container--img1 {
+    width: 391px;
+    height: 250px;
+  }
+}
+
 .hero__container--img2 {
   -o-object-fit: cover;
      object-fit: cover;
   width: 328px;
   height: 290px;
   margin-left: 2rem;
+}
+
+@media (min-width: 761px) {
+  #benefits__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 5rem;
+  }
 }
 
 .benefits__container {
@@ -565,8 +605,21 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-top: 3rem;
 }
 
+@media (min-width: 761px) {
+  .benefit__container {
+    margin-right: 1rem;
+  }
+}
+
 .benefit__container--img {
   margin-bottom: 2rem;
+}
+
+@media (min-width: 761px) {
+  .benefit__container--img {
+    width: 88px;
+    height: 88px;
+  }
 }
 
 .benefit__container--title {
@@ -576,12 +629,25 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 2rem;
 }
 
+@media (min-width: 761px) {
+  .benefit__container--title {
+    font-size: 18px;
+  }
+}
+
 .benefit__container--description {
   text-align: center;
   width: 350px;
   line-height: 25px;
   font-family: "Public Sans", sans-serif;
   color: #37546d;
+}
+
+@media (min-width: 761px) {
+  .benefit__container--description {
+    font-size: 15px;
+    width: 223px;
+  }
 }
 
 .ready__container {
@@ -605,6 +671,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 761px) {
+  .ready__container--title {
+    font-size: 2.5rem;
+  }
+}
+
 .ready__container--btn {
   font-family: "Public Sans", sans-serif;
   font-weight: bold;
@@ -615,6 +687,20 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+}
+
+@media (min-width: 761px) {
+  .ready__container--btn {
+    width: 173px;
+    position: relative;
+    right: 106px;
+  }
+}
+
+@media (min-width: 761px) {
+  .ready__container--form {
+    margin-left: 8rem;
+  }
 }
 
 input#email {
@@ -630,6 +716,12 @@ input#email {
   height: 353px;
 }
 
+@media (min-width: 761px) {
+  .footer__container {
+    height: 100px;
+  }
+}
+
 .footer__container--icons {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -638,6 +730,13 @@ input#email {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (min-width: 761px) {
+  .footer__container--icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 .footer__container--ul {
@@ -651,6 +750,17 @@ input#email {
   height: 115px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+@media (min-width: 761px) {
+  .footer__container--ul {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    height: unset;
+    width: 200px;
+  }
 }
 
 .footer__container--li {
@@ -686,5 +796,16 @@ g {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 353px;
+}
+
+@media (min-width: 761px) {
+  .bitmap3 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    height: 100px;
+    background-position: -2200% 22%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
