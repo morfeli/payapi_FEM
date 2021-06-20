@@ -185,6 +185,12 @@ input#email-input {
   margin: 0 auto;
 }
 
+@media (min-width: 1440px) {
+  .navbar__logo {
+    margin-left: 2rem;
+  }
+}
+
 .navbar-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,6 +198,19 @@ input#email-input {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (min-width: 761px) {
+  .navbar-links {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .navbar-links {
+    margin-right: 35rem;
+    margin-left: 2rem;
+  }
 }
 
 .navbar ul {
