@@ -48,6 +48,12 @@ header {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 761px) {
+  .header__container--title {
+    width: 380px;
+  }
+}
+
 .header__container--startBox {
   width: 327px;
   height: 285px;

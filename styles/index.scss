@@ -32,6 +32,9 @@ header {
     font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
+    @include tablet {
+      width: 380px;
+    }
   }
   &--startBox {
     width: 327px;
