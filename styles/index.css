@@ -154,6 +154,22 @@ input#email-input {
   display: block;
   margin-right: 0.5rem;
   padding: 0.8rem;
+  font-family: "Public Sans", sans-serif;
+  color: #99b5cc;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar--btn {
+  font-family: "Public Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  width: 173px;
+  padding: 1.3rem;
+  border-radius: 30px;
+  margin-bottom: 1rem;
+  border: none;
+  background-color: #b9416f;
 }
 
 .toggle-button {
@@ -274,6 +290,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     height: 80vh;
     width: 100%;
   }
+  .navbar--btn {
+    display: none;
+  }
 }
 
 .partners__container {
@@ -334,6 +353,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 
 .hero__container {
   background-color: #edf3f8;
+  padding-bottom: 5rem;
 }
 
 .implement__container {
