@@ -8,6 +8,9 @@
 
 header {
   background-color: #edf3f8;
+  @include desktop {
+    height: 630px;
+  }
 }
 
 .header__container {
@@ -15,6 +18,10 @@ header {
   flex-direction: column;
   align-items: center;
   padding-bottom: 4rem;
+  @include desktop {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+  }
   &--phone {
     width: 128px;
     height: 240px;
@@ -22,6 +29,11 @@ header {
     @include tablet {
       width: 159px;
       height: 300px;
+      object-fit: cover;
+    }
+    @include desktop {
+      width: 263px;
+      height: 500px;
       object-fit: cover;
     }
   }
@@ -35,6 +47,11 @@ header {
     @include tablet {
       width: 380px;
     }
+    @include desktop {
+      font-size: 4.5rem;
+      width: 546px;
+      text-align: left;
+    }
   }
   &--startBox {
     width: 327px;
@@ -43,6 +60,13 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include desktop {
+      width: 546px;
+      align-items: flex-end;
+      position: relative;
+      right: 135px;
+      margin-left: 3rem;
+    }
   }
   &--btn {
     font-family: "Public Sans", sans-serif;
@@ -65,7 +89,10 @@ header {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     color: $light-san-juan-blue;
-    padding-top: 2rem;
+    // padding-top: 2rem;
+    @include desktop {
+      margin-right: 19rem;
+    }
   }
   &--a {
     font-family: "Public Sans", sans-serif;
@@ -89,6 +116,9 @@ form {
   @include tablet {
     flex-direction: row;
   }
+  @include desktop {
+    margin-right: 3rem;
+  }
 }
 input#email-input {
   width: 327px;
@@ -104,6 +134,9 @@ input#email-input {
   background-position: 50% 500%;
   @include tablet {
     background-position: 50% 2500%;
+  }
+  @include desktop {
+    background-position: 122% 280%;
   }
 }
 
