@@ -26,6 +26,17 @@ header {
 .header__container--phone {
   width: 128px;
   height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 761px) {
+  .header__container--phone {
+    width: 159px;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .header__container--title {
@@ -108,6 +119,12 @@ input#email-input {
   background-position: 50% 500%;
 }
 
+@media (min-width: 761px) {
+  .bitmap {
+    background-position: 50% 2500%;
+  }
+}
+
 .bitmap2 {
   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
@@ -155,7 +172,7 @@ input#email-input {
   margin-right: 0.5rem;
   padding: 0.8rem;
   font-family: "Public Sans", sans-serif;
-  color: #99b5cc;
+  color: #37546d;
   font-size: 15px;
   font-weight: 600;
 }

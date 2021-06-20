@@ -18,6 +18,12 @@ header {
   &--phone {
     width: 128px;
     height: 240px;
+    object-fit: cover;
+    @include tablet {
+      width: 159px;
+      height: 300px;
+      object-fit: cover;
+    }
   }
   &--title {
     font-family: "DM Serif Display", serif;
@@ -77,6 +83,9 @@ input#email-input {
   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
   background-repeat: no-repeat;
   background-position: 50% 500%;
+  @include tablet {
+    background-position: 50% 2500%;
+  }
 }
 
 .bitmap2 {
@@ -114,7 +123,7 @@ input#email-input {
   margin-right: 0.5rem;
   padding: 0.8rem;
   font-family: "Public Sans", sans-serif;
-  color: hsl(207, 33%, 70%);
+  color: $san-juan-blue;
   font-size: 15px;
   font-weight: 600;
 }
