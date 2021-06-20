@@ -65,7 +65,6 @@ header {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     color: $light-san-juan-blue;
-    // margin-top: 2rem;
     padding-top: 2rem;
   }
   &--a {
@@ -87,7 +86,6 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  // margin-bottom: 2rem;
   @include tablet {
     flex-direction: row;
   }
@@ -114,6 +112,9 @@ input#email-input {
   background-repeat: no-repeat;
   height: 618px;
   background-position: 50% 375%;
+  @include tablet {
+    background-position: 50% 295%;
+  }
 }
 
 .navbar {
@@ -267,6 +268,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 .partners__container {
   height: 670px;
   background-color: $mirage-blue;
+  @include tablet {
+    height: 615px;
+  }
   &--imgBox {
     width: 300px;
     display: flex;
@@ -275,17 +279,26 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     margin: 0 auto;
     height: 300px;
     align-items: center;
+    @include tablet {
+      width: 536px;
+    }
   }
   &--textBox {
     margin: 0 auto;
     width: 327px;
     text-align: center;
+    @include tablet {
+      width: 457px;
+    }
   }
   &--title {
     font-family: "DM Serif Display", serif;
     color: white;
     font-size: 2rem;
     margin-bottom: 1rem;
+    @include tablet {
+      font-size: 3rem;
+    }
   }
   &--description {
     font-family: "Public Sans", sans-serif;
@@ -305,6 +318,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     border-style: solid;
     border-color: white;
     font-size: 1rem;
+    @include tablet {
+      margin-top: unset;
+    }
   }
 }
 
