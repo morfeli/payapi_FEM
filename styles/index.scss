@@ -395,6 +395,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include desktop {
+    flex-direction: row;
+    justify-content: center;
+  }
   &--svg {
     border-radius: 30px;
     margin: 0 auto;
@@ -409,6 +413,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     @include tablet {
       font-size: 2.5rem;
     }
+    @include desktop {
+      text-align: left;
+    }
   }
 
   &--description {
@@ -420,10 +427,15 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     @include tablet {
       width: 610px;
     }
+    @include desktop {
+      width: 445px;
+      text-align: left;
+    }
   }
 
   &--textBox {
     margin-bottom: 2rem;
+    margin-left: 3rem;
   }
 }
 
@@ -431,10 +443,17 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include desktop {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
   &--textBox {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    @include desktop {
+      margin-left: 5.5rem;
+      margin-right: 3rem;
+    }
   }
   &--title {
     font-family: "DM Serif Display", serif;
@@ -445,6 +464,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     @include tablet {
       font-size: 2.5rem;
     }
+    @include desktop {
+      text-align: left;
+    }
   }
   &--description {
     width: 350px;
@@ -454,6 +476,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $san-juan-blue;
     @include tablet {
       width: 610px;
+    }
+    @include desktop {
+      width: 445px;
+      text-align: left;
     }
   }
 }
@@ -468,6 +494,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 391px;
     height: 250px;
   }
+  @include desktop {
+    width: 500px;
+    height: 445px;
+    object-fit: cover;
+  }
 }
 
 .hero__container--img2 {
@@ -475,12 +506,24 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   width: 328px;
   height: 290px;
   margin-left: 2rem;
+  @include tablet {
+    width: 320px;
+    height: 320px;
+  }
+  @include desktop {
+    width: 500px;
+    height: 500px;
+  }
 }
 
 #benefits__container {
   @include tablet {
     display: flex;
+    justify-content: center;
     margin-bottom: 5rem;
+  }
+  @include desktop {
+    justify-content: space-evenly;
   }
 }
 
@@ -527,6 +570,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
       font-size: 15px;
       width: 223px;
     }
+    @include desktop {
+      width: 350px;
+    }
   }
 }
 
@@ -534,6 +580,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include desktop {
+    margin-left: 6rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
@@ -635,5 +686,8 @@ g {
     flex-direction: row;
     height: 100px;
     background-position: -2200% 22%;
+  }
+  @include desktop {
+    background-position: 160% 22%;
   }
 }

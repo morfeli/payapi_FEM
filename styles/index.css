@@ -572,6 +572,18 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
           align-items: center;
 }
 
+@media (min-width: 1440px) {
+  .implement__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .implement__container--svg {
   border-radius: 30px;
   margin: 0 auto;
@@ -591,6 +603,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .implement__container--title {
+    text-align: left;
+  }
+}
+
 .implement__container--description {
   width: 350px;
   text-align: center;
@@ -605,8 +623,16 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .implement__container--description {
+    width: 445px;
+    text-align: left;
+  }
+}
+
 .implement__container--textBox {
   margin-bottom: 2rem;
+  margin-left: 3rem;
 }
 
 .simple__container {
@@ -622,6 +648,18 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
           align-items: center;
 }
 
+@media (min-width: 1440px) {
+  .simple__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .simple__container--textBox {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -630,9 +668,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+@media (min-width: 1440px) {
+  .simple__container--textBox {
+    margin-left: 5.5rem;
+    margin-right: 3rem;
+  }
 }
 
 .simple__container--title {
@@ -649,6 +691,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .simple__container--title {
+    text-align: left;
+  }
+}
+
 .simple__container--description {
   width: 350px;
   text-align: center;
@@ -660,6 +708,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 @media (min-width: 761px) {
   .simple__container--description {
     width: 610px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .simple__container--description {
+    width: 445px;
+    text-align: left;
   }
 }
 
@@ -679,6 +734,15 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .hero__container--img1 {
+    width: 500px;
+    height: 445px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 .hero__container--img2 {
   -o-object-fit: cover;
      object-fit: cover;
@@ -688,11 +752,36 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 }
 
 @media (min-width: 761px) {
+  .hero__container--img2 {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .hero__container--img2 {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media (min-width: 761px) {
   #benefits__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  #benefits__container {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
 }
 
@@ -768,6 +857,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .benefit__container--description {
+    width: 350px;
+  }
+}
+
 .ready__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -779,6 +874,19 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 1440px) {
+  .ready__container {
+    margin-left: 6rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .ready__container--title {
@@ -924,6 +1032,12 @@ g {
             flex-direction: row;
     height: 100px;
     background-position: -2200% 22%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bitmap3 {
+    background-position: 160% 22%;
   }
 }
 /*# sourceMappingURL=index.css.map */
