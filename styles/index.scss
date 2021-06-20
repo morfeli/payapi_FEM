@@ -148,6 +148,12 @@ input#email-input {
   @include tablet {
     background-position: 50% 295%;
   }
+  @include desktop {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-position: -43% 205%;
+  }
 }
 
 .navbar {
@@ -317,6 +323,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   @include tablet {
     height: 615px;
   }
+  @include desktop {
+    height: 472px;
+  }
   &--imgBox {
     width: 300px;
     display: flex;
@@ -328,6 +337,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     @include tablet {
       width: 536px;
     }
+    @include desktop {
+      margin-bottom: 9rem;
+    }
   }
   &--textBox {
     margin: 0 auto;
@@ -335,6 +347,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     text-align: center;
     @include tablet {
       width: 457px;
+    }
+    @include desktop {
+      text-align: left;
+      margin-bottom: 6rem;
     }
   }
   &--title {
