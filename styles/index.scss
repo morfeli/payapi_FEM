@@ -54,6 +54,12 @@ header {
     margin-bottom: 1rem;
     border: none;
     background-color: $darkpink;
+    @include tablet {
+      width: 173px;
+      position: relative;
+      right: 130px;
+      padding: 1rem;
+    }
   }
   &--description {
     font-family: "Public Sans", sans-serif;
@@ -67,12 +73,21 @@ header {
     text-decoration: none;
     font-weight: 900;
   }
+  &--form {
+    @include tablet {
+      width: auto;
+      margin-left: 9rem;
+    }
+  }
 }
 
 form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include tablet {
+    flex-direction: row;
+  }
 }
 input#email-input {
   width: 327px;

@@ -84,6 +84,15 @@ header {
   background-color: #b9416f;
 }
 
+@media (min-width: 761px) {
+  .header__container--btn {
+    width: 173px;
+    position: relative;
+    right: 130px;
+    padding: 1rem;
+  }
+}
+
 .header__container--description {
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
@@ -98,6 +107,13 @@ header {
   font-weight: 900;
 }
 
+@media (min-width: 761px) {
+  .header__container--form {
+    width: auto;
+    margin-left: 9rem;
+  }
+}
+
 form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,6 +125,15 @@ form {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 761px) {
+  form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 input#email-input {
