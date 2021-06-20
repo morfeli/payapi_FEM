@@ -79,7 +79,7 @@ header {
   width: 327px;
   padding: 1.3rem;
   border-radius: 30px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
 }
@@ -97,7 +97,7 @@ header {
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   color: #6b8294;
-  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .header__container--a {
