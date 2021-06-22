@@ -24,6 +24,10 @@ body {
   margin: 0 auto;
 }
 
+.navbar__logo {
+  cursor: pointer;
+}
+
 @media (min-width: 1440px) {
   .navbar__logo {
     margin-left: 2rem;
@@ -255,7 +259,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 185px;
+  height: 275px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -314,7 +318,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 185px;
+  height: 275px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -359,7 +363,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 185px;
+  height: 275px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;

@@ -265,6 +265,10 @@ input#email-input {
   margin: 0 auto;
 }
 
+.navbar__logo {
+  cursor: pointer;
+}
+
 @media (min-width: 1440px) {
   .navbar__logo {
     margin-left: 2rem;

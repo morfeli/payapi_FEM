@@ -25,6 +25,7 @@ body {
 }
 
 .navbar__logo {
+  cursor: pointer;
   @include desktop {
     margin-left: 2rem;
   }
@@ -211,7 +212,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 .free__container--textBox {
   display: flex;
   flex-direction: column;
-  height: 185px;
+  height: 275px;
   justify-content: space-around;
   align-items: center;
 }
@@ -255,7 +256,7 @@ li {
 .basic__container--textBox {
   display: flex;
   flex-direction: column;
-  height: 185px;
+  height: 275px;
   justify-content: space-around;
   align-items: center;
 }
@@ -285,7 +286,7 @@ li {
 .premium__container--textBox {
   display: flex;
   flex-direction: column;
-  height: 185px;
+  height: 275px;
   justify-content: space-around;
   align-items: center;
 }
