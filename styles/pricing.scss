@@ -34,9 +34,6 @@ body {
 .navbar-links {
   display: flex;
   justify-content: space-between;
-  @include tablet {
-    margin: 0 auto;
-  }
   @include desktop {
     margin-right: 35rem;
     margin-left: 2rem;
