@@ -177,11 +177,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 .tabletView {
   @include tablet {
     display: flex;
-    width: 689px;
+    width: 70vw;
     justify-content: space-around;
   }
   @include desktop {
-    width: 1200px;
+    width: 85vw;
     justify-content: space-between;
   }
 }

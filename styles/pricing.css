@@ -211,7 +211,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 689px;
+    width: 70vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -219,7 +219,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 
 @media (min-width: 1440px) {
   .tabletView {
-    width: 1200px;
+    width: 85vw;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
