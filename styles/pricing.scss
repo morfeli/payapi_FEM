@@ -177,6 +177,14 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+.tabletView {
+  @include tablet {
+    display: flex;
+    width: 689px;
+    justify-content: space-around;
+  }
+}
+
 .request-btn {
   width: 168px;
   padding: 1rem;
@@ -188,11 +196,15 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: $san-juan-blue;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  margin-left: 5rem;
+  // margin-left: 5rem;
 }
 
 .divider {
   width: 327px;
+  @include tablet {
+    width: 200px;
+    margin: 0 auto;
+  }
 }
 
 .price__container {
@@ -206,6 +218,15 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $san-juan-blue;
     font-size: 2rem;
     margin-bottom: 1.5rem;
+  }
+}
+
+.free__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include tablet {
+    width: 223px;
   }
 }
 
@@ -239,6 +260,15 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   justify-content: space-evenly;
 }
 
+.free__container--description {
+  display: none;
+  @include tablet {
+    display: block;
+    width: 223px;
+    text-align: center;
+  }
+}
+
 li {
   list-style: none;
   font-family: "Public Sans", sans-serif;
@@ -251,6 +281,15 @@ li {
 
 .unactive {
   color: hsl(0, 0%, 70%);
+}
+
+.basic__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include tablet {
+    width: 223px;
+  }
 }
 
 .basic__container--textBox {
@@ -283,6 +322,24 @@ li {
   justify-content: space-evenly;
 }
 
+.basic__container--description {
+  display: none;
+  @include tablet {
+    display: block;
+    width: 223px;
+    text-align: center;
+  }
+}
+
+.premium__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include tablet {
+    width: 223px;
+  }
+}
+
 .premium__container--textBox {
   display: flex;
   flex-direction: column;
@@ -311,6 +368,15 @@ li {
   width: 45px;
   margin: 0 auto;
   justify-content: space-evenly;
+}
+
+.premium__container--description {
+  display: none;
+  @include tablet {
+    display: block;
+    width: 223px;
+    text-align: center;
+  }
 }
 
 .ready__container {
