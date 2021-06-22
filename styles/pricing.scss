@@ -180,6 +180,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 689px;
     justify-content: space-around;
   }
+  @include desktop {
+    width: 1200px;
+    justify-content: space-between;
+  }
 }
 
 .request-btn {
@@ -202,6 +206,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 200px;
     margin: 0 auto;
   }
+  @include desktop {
+    width: 350px;
+  }
 }
 
 .price__container {
@@ -215,6 +222,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $san-juan-blue;
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    @include desktop {
+      font-size: 3.5rem;
+      position: relative;
+      right: 32rem;
+    }
   }
 }
 
@@ -225,6 +237,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   @include tablet {
     width: 223px;
   }
+  @include desktop {
+    width: 350px;
+    align-items: unset;
+  }
 }
 
 .free__container--textBox {
@@ -233,12 +249,21 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   height: 275px;
   justify-content: space-around;
   align-items: center;
+  @include desktop {
+    width: 350px;
+    text-align: left;
+    align-items: unset;
+  }
 }
 
 .free__container--title {
   font-family: "DM Serif Display", serif;
   color: $darkpink;
   font-size: 1.5rem;
+  @include desktop {
+    text-align: left;
+    font-size: 2rem;
+  }
 }
 
 .free__container--price {
@@ -255,6 +280,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   width: 45px;
   margin: 0 auto;
   justify-content: space-evenly;
+  @include desktop {
+    width: 300px;
+  }
 }
 
 .free__container--description {
@@ -263,6 +291,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     display: block;
     width: 223px;
     text-align: center;
+    font-family: "Public Sans", sans-serif;
+    line-height: 30px;
+    color: $light-san-juan-blue;
+  }
+  @include desktop {
+    width: 350px;
+    text-align: left;
   }
 }
 
@@ -287,6 +322,10 @@ li {
   @include tablet {
     width: 223px;
   }
+  @include desktop {
+    width: 350px;
+    align-items: unset;
+  }
 }
 
 .basic__container--textBox {
@@ -295,12 +334,20 @@ li {
   height: 275px;
   justify-content: space-around;
   align-items: center;
+  @include desktop {
+    width: 350px;
+    text-align: left;
+    align-items: unset;
+  }
 }
 
 .basic__container--title {
   font-family: "DM Serif Display", serif;
   color: $darkpink;
   font-size: 1.5rem;
+  @include desktop {
+    font-size: 2rem;
+  }
 }
 
 .basic__container--price {
@@ -317,6 +364,9 @@ li {
   width: 45px;
   margin: 0 auto;
   justify-content: space-evenly;
+  @include desktop {
+    width: 300px;
+  }
 }
 
 .basic__container--description {
@@ -325,6 +375,13 @@ li {
     display: block;
     width: 223px;
     text-align: center;
+    font-family: "Public Sans", sans-serif;
+    line-height: 30px;
+    color: $light-san-juan-blue;
+  }
+  @include desktop {
+    width: 350px;
+    text-align: left;
   }
 }
 
@@ -335,6 +392,10 @@ li {
   @include tablet {
     width: 223px;
   }
+  @include desktop {
+    width: 350px;
+    align-items: unset;
+  }
 }
 
 .premium__container--textBox {
@@ -343,12 +404,20 @@ li {
   height: 275px;
   justify-content: space-around;
   align-items: center;
+  @include desktop {
+    width: 350px;
+    text-align: left;
+    align-items: unset;
+  }
 }
 
 .premium__container--title {
   font-family: "DM Serif Display", serif;
   color: $darkpink;
   font-size: 1.5rem;
+  @include desktop {
+    font-size: 2rem;
+  }
 }
 
 .premium__container--price {
@@ -365,6 +434,9 @@ li {
   width: 45px;
   margin: 0 auto;
   justify-content: space-evenly;
+  @include desktop {
+    width: 300px;
+  }
 }
 
 .premium__container--description {
@@ -373,6 +445,13 @@ li {
     display: block;
     width: 223px;
     text-align: center;
+    font-family: "Public Sans", sans-serif;
+    line-height: 30px;
+    color: $light-san-juan-blue;
+  }
+  @include desktop {
+    width: 350px;
+    text-align: left;
   }
 }
 
@@ -380,8 +459,12 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include tablet {
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+  }
   @include desktop {
-    margin-left: 6rem;
+    margin-left: 8rem;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -416,6 +499,17 @@ li {
     @include tablet {
       margin-left: 8rem;
     }
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include tablet {
+    flex-direction: row;
+  }
+  @include desktop {
+    margin-right: 1rem;
   }
 }
 

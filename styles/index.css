@@ -48,7 +48,7 @@ header {
      object-fit: cover;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .header__container--phone {
     width: 159px;
     height: 300px;
@@ -75,7 +75,7 @@ header {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .header__container--title {
     width: 380px;
   }
@@ -131,7 +131,7 @@ header {
   background-color: #b9416f;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .header__container--btn {
     width: 173px;
     position: relative;
@@ -160,7 +160,7 @@ header {
   font-weight: 900;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .header__container--form {
     width: auto;
     margin-left: 9rem;
@@ -180,7 +180,7 @@ form {
           align-items: center;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   form {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -209,7 +209,7 @@ input#email-input {
   background-position: 50% 500%;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .bitmap {
     background-position: 50% 2500%;
   }
@@ -228,7 +228,7 @@ input#email-input {
   background-position: 50% 375%;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .bitmap2 {
     background-position: 50% 295%;
   }
@@ -284,7 +284,7 @@ input#email-input {
           justify-content: space-between;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .navbar-links {
     margin: 0 auto;
   }
@@ -458,7 +458,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   background-color: #1c2731;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .partners__container {
     height: 615px;
   }
@@ -487,7 +487,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
           align-items: center;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .partners__container--imgBox {
     width: 536px;
   }
@@ -505,7 +505,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   text-align: center;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .partners__container--textBox {
     width: 457px;
   }
@@ -525,7 +525,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .partners__container--title {
     font-size: 3rem;
   }
@@ -552,7 +552,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 1rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .partners__container--btn {
     margin-top: unset;
   }
@@ -601,7 +601,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .implement__container--title {
     font-size: 2.5rem;
   }
@@ -621,7 +621,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: #37546d;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .implement__container--description {
     width: 610px;
   }
@@ -689,7 +689,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .simple__container--title {
     font-size: 2.5rem;
   }
@@ -709,7 +709,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: #37546d;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .simple__container--description {
     width: 610px;
   }
@@ -731,7 +731,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-left: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .hero__container--img1 {
     width: 391px;
     height: 250px;
@@ -755,7 +755,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-left: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .hero__container--img2 {
     width: 320px;
     height: 320px;
@@ -769,7 +769,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   #benefits__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -816,7 +816,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-top: 3rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .benefit__container {
     margin-right: 1rem;
   }
@@ -826,7 +826,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .benefit__container--img {
     width: 88px;
     height: 88px;
@@ -840,7 +840,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .benefit__container--title {
     font-size: 18px;
   }
@@ -854,7 +854,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: #37546d;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .benefit__container--description {
     font-size: 15px;
     width: 223px;
@@ -901,7 +901,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .ready__container--title {
     font-size: 2.5rem;
   }
@@ -919,7 +919,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   background-color: #b9416f;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .ready__container--btn {
     width: 173px;
     position: relative;
@@ -927,7 +927,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .ready__container--form {
     margin-left: 8rem;
   }
@@ -946,7 +946,7 @@ input#email {
   height: 353px;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .footer__container {
     height: 100px;
   }
@@ -962,7 +962,7 @@ input#email {
           justify-content: space-between;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .footer__container--icon {
     width: 24px;
     height: 24px;
@@ -982,7 +982,7 @@ input#email {
       justify-content: space-around;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .footer__container--ul {
     -webkit-box-orient: unset;
     -webkit-box-direction: unset;
@@ -1028,7 +1028,7 @@ g {
   height: 353px;
 }
 
-@media (min-width: 761px) {
+@media (min-width: 768px) {
   .bitmap3 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
