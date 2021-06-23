@@ -228,9 +228,22 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: #37546d;
 }
 
+@media (min-width: 768px) {
+  .aboutus__container--title {
+    width: 573px;
+    font-size: 3rem;
+  }
+}
+
 .header__container {
   text-align: center;
   margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .header__container {
+    text-align: left;
+  }
 }
 
 .vision__container {
@@ -247,10 +260,32 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2.5rem;
 }
 
+@media (min-width: 768px) {
+  .vision__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    width: 689px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .vision__container--title {
   font-family: "DM Serif Display", serif;
   color: #37546d;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .vision__container--title {
+    font-size: 2rem;
+  }
 }
 
 .vision__container--description {
@@ -259,6 +294,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 15px;
   line-height: 25px;
   color: #6b8294;
+}
+
+@media (min-width: 768px) {
+  .vision__container--description {
+    width: 456px;
+  }
 }
 
 .business__container {
@@ -274,10 +315,32 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
           align-items: center;
 }
 
+@media (min-width: 768px) {
+  .business__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    width: 689px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
 .business__container--title {
   font-family: "DM Serif Display", serif;
   color: #37546d;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .business__container--title {
+    font-size: 2rem;
+  }
 }
 
 .business__container--description {
@@ -286,6 +349,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 15px;
   line-height: 25px;
   color: #6b8294;
+}
+
+@media (min-width: 768px) {
+  .business__container--description {
+    width: 456px;
+  }
 }
 
 .image__container {
@@ -297,9 +366,46 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-top: 3rem;
 }
 
+@media (min-width: 768px) {
+  .image__container {
+    background-image: url("../assets/about/tablet/image-team-members.jpg");
+    width: 769px;
+    height: 267px;
+  }
+}
+
 .divider {
   width: 327px;
   margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .divider {
+    display: none;
+  }
+}
+
+.tablet-divider {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .tablet-divider {
+    display: block;
+    width: 223px;
+  }
+}
+
+@media (min-width: 768px) {
+  .stats__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 689px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .stats__container--box {
@@ -317,9 +423,23 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-top: 3rem;
 }
 
+@media (min-width: 768px) {
+  .stats__container--box {
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+  }
+}
+
 .stats__container--title {
   font-family: "Public Sans", sans-serif;
   color: #6b8294;
+}
+
+@media (min-width: 768px) {
+  .stats__container--title {
+    display: none;
+  }
 }
 
 .stats__container--number {
@@ -328,8 +448,22 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: #b9416f;
 }
 
+@media (min-width: 768px) {
+  .stats__container--number {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .bottom__container {
   text-align: center;
+  margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .bottom__container {
+    text-align: left;
+  }
 }
 
 .culture__container {
@@ -343,7 +477,23 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .culture__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    width: 689px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .culture__container--title {
@@ -352,12 +502,24 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  .culture__container--title {
+    font-size: 2rem;
+  }
+}
+
 .culture__container--description {
   width: 327px;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   line-height: 25px;
   color: #6b8294;
+}
+
+@media (min-width: 768px) {
+  .culture__container--description {
+    width: 456px;
+  }
 }
 
 .people__container {
@@ -371,7 +533,22 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .people__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    width: 689px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .people__container--title {
@@ -380,12 +557,24 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 1.5rem;
 }
 
+@media (min-width: 768px) {
+  .people__container--title {
+    font-size: 2rem;
+  }
+}
+
 .people__container--description {
   width: 327px;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   line-height: 25px;
   color: #6b8294;
+}
+
+@media (min-width: 768px) {
+  .people__container--description {
+    width: 456px;
+  }
 }
 
 .ready__container {

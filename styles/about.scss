@@ -187,12 +187,19 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 327px;
     font-family: "DM Serif Display", serif;
     color: $san-juan-blue;
+    @include tablet {
+      width: 573px;
+      font-size: 3rem;
+    }
   }
 }
 
 .header__container {
   text-align: center;
   margin-top: 2.5rem;
+  @include tablet {
+    text-align: left;
+  }
 }
 
 .vision__container {
@@ -200,11 +207,20 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   flex-direction: column;
   align-items: center;
   margin-bottom: 2.5rem;
+  @include tablet {
+    flex-direction: row;
+    align-items: unset;
+    width: 689px;
+    justify-content: space-between;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
     color: $san-juan-blue;
     font-size: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   &--description {
@@ -213,6 +229,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 15px;
     line-height: 25px;
     color: $light-san-juan-blue;
+    @include tablet {
+      width: 456px;
+    }
   }
 }
 
@@ -220,11 +239,20 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include tablet {
+    flex-direction: row;
+    align-items: unset;
+    width: 689px;
+    justify-content: space-between;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
     color: $san-juan-blue;
     font-size: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   &--description {
@@ -233,6 +261,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 15px;
     line-height: 25px;
     color: $light-san-juan-blue;
+    @include tablet {
+      width: 456px;
+    }
   }
 }
 
@@ -243,46 +274,90 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   background-repeat: no-repeat;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  @include tablet {
+    background-image: url("../assets/about/tablet/image-team-members.jpg");
+    width: 769px;
+    height: 267px;
+  }
 }
 
 .divider {
   width: 327px;
   margin: 0 auto;
+  @include tablet {
+    display: none;
+  }
+}
+
+.tablet-divider {
+  display: none;
+  @include tablet {
+    display: block;
+    width: 223px;
+  }
 }
 
 .stats__container {
+  @include tablet {
+    display: flex;
+    width: 689px;
+    justify-content: space-between;
+  }
   &--box {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 3rem;
     margin-top: 3rem;
+    @include tablet {
+      align-items: unset;
+    }
   }
   &--title {
     font-family: "Public Sans", sans-serif;
     color: $light-san-juan-blue;
+    @include tablet {
+      display: none;
+    }
   }
   &--number {
     font-family: "DM Serif Display", serif;
     font-size: 3.5rem;
     color: $darkpink;
+    @include tablet {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
   }
 }
 
 .bottom__container {
   text-align: center;
+  margin-top: 2.5rem;
+  @include tablet {
+    text-align: left;
+  }
 }
 
 .culture__container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  @include tablet {
+    flex-direction: row;
+    align-items: unset;
+    width: 689px;
+    justify-content: space-between;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
     color: $san-juan-blue;
     font-size: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   &--description {
@@ -291,6 +366,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 15px;
     line-height: 25px;
     color: $light-san-juan-blue;
+    @include tablet {
+      width: 456px;
+    }
   }
 }
 
@@ -298,12 +376,20 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 2.5rem;
+  @include tablet {
+    flex-direction: row;
+    align-items: unset;
+    width: 689px;
+    justify-content: space-between;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
     color: $san-juan-blue;
     font-size: 1.5rem;
+    @include tablet {
+      font-size: 2rem;
+    }
   }
 
   &--description {
@@ -312,6 +398,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 15px;
     line-height: 25px;
     color: $light-san-juan-blue;
+    @include tablet {
+      width: 456px;
+    }
   }
 }
 
