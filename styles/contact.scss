@@ -187,6 +187,17 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 2rem;
     color: $san-juan-blue;
     margin-bottom: 2rem;
+    @include tablet {
+      font-size: 3rem;
+      width: 543px;
+    }
+    @include desktop {
+      width: 730px;
+      position: relative;
+      left: 130px;
+      text-align: unset;
+      font-size: 3.5rem;
+    }
   }
 }
 
@@ -195,6 +206,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  @include tablet {
+    width: 445px;
+  }
   &--submit {
     width: 157px;
     height: 48px;
@@ -211,6 +225,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   width: 327px;
   margin-top: 1rem;
   margin-bottom: 4rem;
+  @include tablet {
+    width: 453px;
+  }
 }
 
 input {
@@ -223,6 +240,9 @@ input {
   padding-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+  @include tablet {
+    width: 445px;
+  }
 }
 
 input[type="checkbox"]#subscribe {
@@ -236,6 +256,9 @@ input[type="checkbox"]#subscribe {
   display: flex;
   width: 327px;
   margin-top: 1rem;
+  @include tablet {
+    width: 453px;
+  }
   &--label {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
@@ -250,6 +273,9 @@ textarea {
   padding-left: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+  @include tablet {
+    width: 445px;
+  }
 }
 
 .innovators__container {
@@ -260,11 +286,21 @@ textarea {
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
+  @include tablet {
+    width: 541px;
+  }
+  @include desktop {
+    height: 208px;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
     font-size: 1.5rem;
     color: $light-san-juan-blue;
+    @include tablet {
+      width: 445px;
+      margin: 0 auto;
+    }
   }
   &--img {
     margin-bottom: 2rem;
@@ -278,6 +314,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5rem;
   @include tablet {
     margin-top: 2rem;
     padding-bottom: 5rem;
@@ -403,4 +440,9 @@ g {
   @include desktop {
     background-position: 160% 22%;
   }
+}
+
+.desktop__container {
+  display: flex;
+  align-items: center;
 }

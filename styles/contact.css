@@ -229,6 +229,23 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 2rem;
 }
 
+@media (min-width: 768px) {
+  .header__container--title {
+    font-size: 3rem;
+    width: 543px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__container--title {
+    width: 730px;
+    position: relative;
+    left: 130px;
+    text-align: unset;
+    font-size: 3.5rem;
+  }
+}
+
 .form__container {
   width: 327px;
   display: -webkit-box;
@@ -241,6 +258,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (min-width: 768px) {
+  .form__container {
+    width: 445px;
+  }
 }
 
 .form__container--submit {
@@ -260,6 +283,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-bottom: 4rem;
 }
 
+@media (min-width: 768px) {
+  .submit__container {
+    width: 453px;
+  }
+}
+
 input {
   width: 327px;
   background-color: transparent;
@@ -270,6 +299,12 @@ input {
   padding-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  input {
+    width: 445px;
+  }
 }
 
 input[type="checkbox"]#subscribe {
@@ -287,6 +322,12 @@ input[type="checkbox"]#subscribe {
   margin-top: 1rem;
 }
 
+@media (min-width: 768px) {
+  .subscribe__container {
+    width: 453px;
+  }
+}
+
 .subscribe__container--label {
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
@@ -301,6 +342,12 @@ textarea {
   padding-left: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+}
+
+@media (min-width: 768px) {
+  textarea {
+    width: 445px;
+  }
 }
 
 .innovators__container {
@@ -320,10 +367,29 @@ textarea {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .innovators__container {
+    width: 541px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .innovators__container {
+    height: 208px;
+  }
+}
+
 .innovators__container--title {
   font-family: "DM Serif Display", serif;
   font-size: 1.5rem;
   color: #6b8294;
+}
+
+@media (min-width: 768px) {
+  .innovators__container--title {
+    width: 445px;
+    margin: 0 auto;
+  }
 }
 
 .innovators__container--img {
@@ -342,6 +408,7 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 5rem;
 }
 
 @media (min-width: 768px) {
@@ -542,5 +609,14 @@ g {
   .bitmap3 {
     background-position: 160% 22%;
   }
+}
+
+.desktop__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=contact.css.map */
