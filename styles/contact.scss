@@ -195,6 +195,22 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   display: flex;
   flex-direction: column;
   align-items: center;
+  &--submit {
+    width: 157px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: $san-juan-blue;
+  }
+}
+
+.submit__container {
+  width: 327px;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 input {
@@ -209,21 +225,29 @@ input {
   font-size: 15px;
 }
 
-input [type="radio"] {
-  width: 20px;
+input[type="checkbox"]#subscribe {
+  visibility: visible;
+  display: block;
+  width: 15px;
+  margin-right: 2rem;
 }
 
+.subscribe__container {
+  display: flex;
+  width: 327px;
+  margin-top: 1rem;
+  &--label {
+    font-family: "Public Sans", sans-serif;
+    font-size: 15px;
+    color: $san-juan-blue;
+  }
+}
 textarea {
   width: 327px;
   background-color: transparent;
   border: none;
   border-bottom: solid gray 2px;
   padding-left: 1rem;
-  font-family: "Public Sans", sans-serif;
-  font-size: 15px;
-}
-
-.subscribe-label {
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
 }
