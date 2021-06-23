@@ -138,6 +138,20 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   opacity: 0;
 }
 
+li {
+  list-style: none;
+  font-family: "Public Sans", sans-serif;
+}
+
+.active {
+  color: $san-juan-blue;
+  list-style-image: url("../assets/shared/desktop/icon-check.svg");
+}
+
+.unactive {
+  color: hsl(0, 0%, 70%);
+}
+
 @media (max-width: 760px) {
   .toggle-button {
     display: flex;
@@ -225,7 +239,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     @include desktop {
       font-size: 3.5rem;
       position: relative;
-      right: 32rem;
+      right: 33rem;
     }
   }
 }
@@ -241,80 +255,60 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 350px;
     align-items: unset;
   }
-}
-
-.free__container--textBox {
-  display: flex;
-  flex-direction: column;
-  height: 275px;
-  justify-content: space-around;
-  align-items: center;
-  @include desktop {
-    width: 350px;
-    text-align: left;
-    align-items: unset;
+  &--textBox {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    justify-content: space-around;
+    align-items: center;
+    @include desktop {
+      width: 350px;
+      text-align: left;
+      align-items: unset;
+    }
+  }
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $darkpink;
+    font-size: 1.5rem;
+    @include desktop {
+      text-align: left;
+      font-size: 2rem;
+    }
+  }
+  &--description {
+    display: none;
+    @include tablet {
+      display: block;
+      width: 223px;
+      text-align: center;
+      font-family: "Public Sans", sans-serif;
+      line-height: 30px;
+      color: $light-san-juan-blue;
+    }
+    @include desktop {
+      width: 350px;
+      text-align: left;
+    }
+  }
+  &--price {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 3.5rem;
+  }
+  &--ul {
+    display: flex;
+    flex-direction: column;
+    height: 244px;
+    width: 1;
+    width: 45px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    @include desktop {
+      width: 300px;
+    }
   }
 }
-
-.free__container--title {
-  font-family: "DM Serif Display", serif;
-  color: $darkpink;
-  font-size: 1.5rem;
-  @include desktop {
-    text-align: left;
-    font-size: 2rem;
-  }
-}
-
-.free__container--price {
-  font-family: "DM Serif Display", serif;
-  color: $san-juan-blue;
-  font-size: 3.5rem;
-}
-
-.free__container--ul {
-  display: flex;
-  flex-direction: column;
-  height: 244px;
-  width: 1;
-  width: 45px;
-  margin: 0 auto;
-  justify-content: space-evenly;
-  @include desktop {
-    width: 300px;
-  }
-}
-
-.free__container--description {
-  display: none;
-  @include tablet {
-    display: block;
-    width: 223px;
-    text-align: center;
-    font-family: "Public Sans", sans-serif;
-    line-height: 30px;
-    color: $light-san-juan-blue;
-  }
-  @include desktop {
-    width: 350px;
-    text-align: left;
-  }
-}
-
-li {
-  list-style: none;
-  font-family: "Public Sans", sans-serif;
-}
-
-.active {
-  color: $san-juan-blue;
-  list-style-image: url("../assets/shared/desktop/icon-check.svg");
-}
-
-.unactive {
-  color: hsl(0, 0%, 70%);
-}
-
 .basic__container {
   display: flex;
   flex-direction: column;
@@ -326,65 +320,60 @@ li {
     width: 350px;
     align-items: unset;
   }
-}
-
-.basic__container--textBox {
-  display: flex;
-  flex-direction: column;
-  height: 275px;
-  justify-content: space-around;
-  align-items: center;
-  @include desktop {
-    width: 350px;
-    text-align: left;
-    align-items: unset;
+  &--textBox {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    justify-content: space-around;
+    align-items: center;
+    @include desktop {
+      width: 350px;
+      text-align: left;
+      align-items: unset;
+    }
+  }
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $darkpink;
+    font-size: 1.5rem;
+    @include desktop {
+      text-align: left;
+      font-size: 2rem;
+    }
+  }
+  &--description {
+    display: none;
+    @include tablet {
+      display: block;
+      width: 223px;
+      text-align: center;
+      font-family: "Public Sans", sans-serif;
+      line-height: 30px;
+      color: $light-san-juan-blue;
+    }
+    @include desktop {
+      width: 350px;
+      text-align: left;
+    }
+  }
+  &--price {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 3.5rem;
+  }
+  &--ul {
+    display: flex;
+    flex-direction: column;
+    height: 244px;
+    width: 1;
+    width: 45px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    @include desktop {
+      width: 300px;
+    }
   }
 }
-
-.basic__container--title {
-  font-family: "DM Serif Display", serif;
-  color: $darkpink;
-  font-size: 1.5rem;
-  @include desktop {
-    font-size: 2rem;
-  }
-}
-
-.basic__container--price {
-  font-family: "DM Serif Display", serif;
-  color: $san-juan-blue;
-  font-size: 3.5rem;
-}
-
-.basic__container--ul {
-  display: flex;
-  flex-direction: column;
-  height: 244px;
-  width: 1;
-  width: 45px;
-  margin: 0 auto;
-  justify-content: space-evenly;
-  @include desktop {
-    width: 300px;
-  }
-}
-
-.basic__container--description {
-  display: none;
-  @include tablet {
-    display: block;
-    width: 223px;
-    text-align: center;
-    font-family: "Public Sans", sans-serif;
-    line-height: 30px;
-    color: $light-san-juan-blue;
-  }
-  @include desktop {
-    width: 350px;
-    text-align: left;
-  }
-}
-
 .premium__container {
   display: flex;
   flex-direction: column;
@@ -396,62 +385,58 @@ li {
     width: 350px;
     align-items: unset;
   }
-}
-
-.premium__container--textBox {
-  display: flex;
-  flex-direction: column;
-  height: 275px;
-  justify-content: space-around;
-  align-items: center;
-  @include desktop {
-    width: 350px;
-    text-align: left;
-    align-items: unset;
+  &--textBox {
+    display: flex;
+    flex-direction: column;
+    height: 275px;
+    justify-content: space-around;
+    align-items: center;
+    @include desktop {
+      width: 350px;
+      text-align: left;
+      align-items: unset;
+    }
   }
-}
-
-.premium__container--title {
-  font-family: "DM Serif Display", serif;
-  color: $darkpink;
-  font-size: 1.5rem;
-  @include desktop {
-    font-size: 2rem;
+  &--title {
+    font-family: "DM Serif Display", serif;
+    color: $darkpink;
+    font-size: 1.5rem;
+    @include desktop {
+      text-align: left;
+      font-size: 2rem;
+    }
   }
-}
-
-.premium__container--price {
-  font-family: "DM Serif Display", serif;
-  color: $san-juan-blue;
-  font-size: 3.5rem;
-}
-
-.premium__container--ul {
-  display: flex;
-  flex-direction: column;
-  height: 244px;
-  width: 1;
-  width: 45px;
-  margin: 0 auto;
-  justify-content: space-evenly;
-  @include desktop {
-    width: 300px;
+  &--description {
+    display: none;
+    @include tablet {
+      display: block;
+      width: 223px;
+      text-align: center;
+      font-family: "Public Sans", sans-serif;
+      line-height: 30px;
+      color: $light-san-juan-blue;
+    }
+    @include desktop {
+      width: 350px;
+      text-align: left;
+    }
   }
-}
-
-.premium__container--description {
-  display: none;
-  @include tablet {
-    display: block;
-    width: 223px;
-    text-align: center;
-    font-family: "Public Sans", sans-serif;
-    line-height: 30px;
-    color: $light-san-juan-blue;
+  &--price {
+    font-family: "DM Serif Display", serif;
+    color: $san-juan-blue;
+    font-size: 3.5rem;
   }
-  @include desktop {
-    width: 350px;
-    text-align: left;
+  &--ul {
+    display: flex;
+    flex-direction: column;
+    height: 244px;
+    width: 1;
+    width: 45px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    @include desktop {
+      width: 300px;
+    }
   }
 }
 
@@ -519,17 +504,6 @@ input#email {
   border-radius: 30px;
   margin-bottom: 1rem;
   border: none;
-}
-
-.free__container--items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.free__container--item {
-  display: flex;
-  align-items: center;
 }
 
 .footer__container {
