@@ -206,6 +206,188 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+.aboutus__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.5rem;
+}
+
+.aboutus__container--title {
+  font-size: 2rem;
+  text-align: center;
+  width: 327px;
+  font-family: "DM Serif Display", serif;
+  color: #37546d;
+}
+
+.header__container {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.vision__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.vision__container--title {
+  font-family: "DM Serif Display", serif;
+  color: #37546d;
+  font-size: 1.5rem;
+}
+
+.vision__container--description {
+  width: 327px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #6b8294;
+}
+
+.business__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.business__container--title {
+  font-family: "DM Serif Display", serif;
+  color: #37546d;
+  font-size: 1.5rem;
+}
+
+.business__container--description {
+  width: 327px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #6b8294;
+}
+
+.image__container {
+  background-image: url("../assets/about/mobile/image-team-members.jpg");
+  width: 375px;
+  height: 300px;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.divider {
+  width: 327px;
+  margin: 0 auto;
+}
+
+.stats__container--box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.stats__container--title {
+  font-family: "Public Sans", sans-serif;
+  color: #6b8294;
+}
+
+.stats__container--number {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.5rem;
+  color: #b9416f;
+}
+
+.bottom__container {
+  text-align: center;
+}
+
+.culture__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.5rem;
+}
+
+.culture__container--title {
+  font-family: "DM Serif Display", serif;
+  color: #37546d;
+  font-size: 1.5rem;
+}
+
+.culture__container--description {
+  width: 327px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #6b8294;
+}
+
+.people__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2.5rem;
+}
+
+.people__container--title {
+  font-family: "DM Serif Display", serif;
+  color: #37546d;
+  font-size: 1.5rem;
+}
+
+.people__container--description {
+  width: 327px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #6b8294;
+}
+
 .ready__container {
   display: -webkit-box;
   display: -ms-flexbox;
