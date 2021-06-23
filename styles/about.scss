@@ -191,6 +191,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
       width: 573px;
       font-size: 3rem;
     }
+    @include desktop {
+      width: 730px;
+      font-size: 3.5rem;
+      text-align: left;
+      position: relative;
+      right: 10rem;
+    }
   }
 }
 
@@ -199,6 +206,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   margin-top: 2.5rem;
   @include tablet {
     text-align: left;
+  }
+  @include desktop {
+    width: 920px;
+    margin-right: 8rem;
   }
 }
 
@@ -213,6 +224,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 689px;
     justify-content: space-between;
   }
+  @include desktop {
+    width: 920px;
+    margin-bottom: 5rem;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
@@ -231,6 +246,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $light-san-juan-blue;
     @include tablet {
       width: 456px;
+    }
+    @include desktop {
+      width: 635px;
     }
   }
 }
@@ -245,6 +263,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 689px;
     justify-content: space-between;
   }
+  @include desktop {
+    width: 920px;
+    margin-bottom: 1rem;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
@@ -263,6 +285,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $light-san-juan-blue;
     @include tablet {
       width: 456px;
+    }
+    @include desktop {
+      width: 635px;
     }
   }
 }
@@ -278,6 +303,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     background-image: url("../assets/about/tablet/image-team-members.jpg");
     width: 769px;
     height: 267px;
+  }
+  @include desktop {
+    background-image: url("../assets/about/desktop/image-team-members.jpg");
+    width: 1440px;
+    height: 500px;
   }
 }
 
@@ -295,12 +325,19 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     display: block;
     width: 223px;
   }
+  @include desktop {
+    width: 350px;
+  }
 }
 
 .stats__container {
   @include tablet {
     display: flex;
     width: 689px;
+    justify-content: space-between;
+  }
+  @include desktop {
+    width: 1110px;
     justify-content: space-between;
   }
   &--box {
@@ -318,6 +355,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $light-san-juan-blue;
     @include tablet {
       display: none;
+    }
+    @include desktop {
+      display: block;
+      margin-top: 2rem;
     }
   }
   &--number {
@@ -337,6 +378,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   @include tablet {
     text-align: left;
   }
+  @include desktop {
+    width: 920px;
+    margin-right: 8rem;
+  }
 }
 
 .culture__container {
@@ -349,6 +394,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     align-items: unset;
     width: 689px;
     justify-content: space-between;
+  }
+  @include desktop {
+    width: 920px;
+    margin-bottom: 5rem;
   }
 
   &--title {
@@ -368,6 +417,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $light-san-juan-blue;
     @include tablet {
       width: 456px;
+    }
+    @include desktop {
+      width: 635px;
     }
   }
 }
@@ -382,6 +434,10 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     width: 689px;
     justify-content: space-between;
   }
+  @include desktop {
+    width: 920px;
+    margin-bottom: 1rem;
+  }
 
   &--title {
     font-family: "DM Serif Display", serif;
@@ -400,6 +456,9 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: $light-san-juan-blue;
     @include tablet {
       width: 456px;
+    }
+    @include desktop {
+      width: 635px;
     }
   }
 }

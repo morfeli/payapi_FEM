@@ -235,6 +235,16 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .aboutus__container--title {
+    width: 730px;
+    font-size: 3.5rem;
+    text-align: left;
+    position: relative;
+    right: 10rem;
+  }
+}
+
 .header__container {
   text-align: center;
   margin-top: 2.5rem;
@@ -243,6 +253,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 @media (min-width: 768px) {
   .header__container {
     text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__container {
+    width: 920px;
+    margin-right: 8rem;
   }
 }
 
@@ -276,6 +293,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .vision__container {
+    width: 920px;
+    margin-bottom: 5rem;
+  }
+}
+
 .vision__container--title {
   font-family: "DM Serif Display", serif;
   color: #37546d;
@@ -299,6 +323,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 @media (min-width: 768px) {
   .vision__container--description {
     width: 456px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .vision__container--description {
+    width: 635px;
   }
 }
 
@@ -331,6 +361,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .business__container {
+    width: 920px;
+    margin-bottom: 1rem;
+  }
+}
+
 .business__container--title {
   font-family: "DM Serif Display", serif;
   color: #37546d;
@@ -357,6 +394,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .business__container--description {
+    width: 635px;
+  }
+}
+
 .image__container {
   background-image: url("../assets/about/mobile/image-team-members.jpg");
   width: 375px;
@@ -371,6 +414,14 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     background-image: url("../assets/about/tablet/image-team-members.jpg");
     width: 769px;
     height: 267px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .image__container {
+    background-image: url("../assets/about/desktop/image-team-members.jpg");
+    width: 1440px;
+    height: 500px;
   }
 }
 
@@ -396,12 +447,27 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .tablet-divider {
+    width: 350px;
+  }
+}
+
 @media (min-width: 768px) {
   .stats__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 689px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (min-width: 1440px) {
+  .stats__container {
+    width: 1110px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -442,6 +508,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .stats__container--title {
+    display: block;
+    margin-top: 2rem;
+  }
+}
+
 .stats__container--number {
   font-family: "DM Serif Display", serif;
   font-size: 3.5rem;
@@ -463,6 +536,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 @media (min-width: 768px) {
   .bottom__container {
     text-align: left;
+  }
+}
+
+@media (min-width: 1440px) {
+  .bottom__container {
+    width: 920px;
+    margin-right: 8rem;
   }
 }
 
@@ -496,6 +576,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .culture__container {
+    width: 920px;
+    margin-bottom: 5rem;
+  }
+}
+
 .culture__container--title {
   font-family: "DM Serif Display", serif;
   color: #37546d;
@@ -519,6 +606,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 @media (min-width: 768px) {
   .culture__container--description {
     width: 456px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .culture__container--description {
+    width: 635px;
   }
 }
 
@@ -551,6 +644,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+@media (min-width: 1440px) {
+  .people__container {
+    width: 920px;
+    margin-bottom: 1rem;
+  }
+}
+
 .people__container--title {
   font-family: "DM Serif Display", serif;
   color: #37546d;
@@ -574,6 +674,12 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 @media (min-width: 768px) {
   .people__container--description {
     width: 456px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .people__container--description {
+    width: 635px;
   }
 }
 
