@@ -224,12 +224,13 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 }
 
 .submit__container {
-  width: 327px;
+  padding-bottom: 5rem;
+  margin-right: 10rem;
   margin-top: 1rem;
-  margin-bottom: 4rem;
-  margin-left: 9rem;
+
   @include tablet {
     width: 453px;
+    margin-right: 1rem;
   }
 }
 

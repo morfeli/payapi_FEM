@@ -280,15 +280,15 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 }
 
 .submit__container {
-  width: 327px;
+  padding-bottom: 5rem;
+  margin-right: 10rem;
   margin-top: 1rem;
-  margin-bottom: 4rem;
-  margin-left: 9rem;
 }
 
 @media (min-width: 768px) {
   .submit__container {
     width: 453px;
+    margin-right: 1rem;
   }
 }
 
