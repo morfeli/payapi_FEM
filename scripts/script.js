@@ -1,3 +1,5 @@
+const hamburgerBtn = document.getElementsByClassName("toggle-button")[0];
+const navBarLinks = document.getElementsByClassName("navbar-links")[0];
 const benefitsBox = document.getElementById("benefits__container");
 
 let benefits = [
@@ -40,3 +42,7 @@ const renderBenefits = (arr) => {
 renderBenefits(benefits);
 
 console.log(benefitsBox);
+
+hamburgerBtn.addEventListener("click", () => {
+  navBarLinks.classList.toggle("active");
+});

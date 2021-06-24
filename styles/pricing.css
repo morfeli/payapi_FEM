@@ -101,6 +101,7 @@ body {
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   margin-top: 2rem;
+  z-index: 100;
 }
 
 input[type="checkbox"] {
@@ -147,6 +148,7 @@ input[type="checkbox"]:checked ~ .toggle-button .top {
   -webkit-transform-origin: right;
           transform-origin: right;
   top: -10px;
+  background-color: white;
 }
 
 input[type="checkbox"]:checked ~ .toggle-button .bottom {
@@ -156,6 +158,7 @@ input[type="checkbox"]:checked ~ .toggle-button .bottom {
   -webkit-transform-origin: right;
           transform-origin: right;
   top: 10px;
+  background-color: white;
 }
 
 input[type="checkbox"]:checked ~ .toggle-button .middle {
@@ -178,22 +181,64 @@ li {
   color: #b3b3b3;
 }
 
-@media (max-width: 760px) {
+.navbar--btn-mobilemenu {
+  display: none;
+}
+
+.mobile--divider {
+  display: none;
+}
+
+@media (max-width: 768px) {
   .toggle-button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .mobile--divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 80px;
+    width: 249px;
+    height: 1px;
+    margin: 0 auto;
+  }
+  .navbar--btn-mobilemenu {
+    display: block;
+    font-family: "Public Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 173px;
+    padding: 1.3rem;
+    border-radius: 30px;
+    margin: 0 auto;
+    border: none;
+    background-color: #b9416f;
+    cursor: pointer;
   }
   .navbar-links {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 80%;
     height: auto;
     margin: 2rem auto;
     text-align: center;
     display: none;
+  }
+  .navbar-links.active {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    top: 0px;
+    right: 0vw;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    height: 650px;
+    width: 300px;
+    background-color: #1b262f;
   }
   .navbar-links ul {
     display: -webkit-box;
@@ -203,17 +248,15 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
   }
-  .navbar-links.active {
-    display: block;
-    position: absolute;
-    margin: 0 auto;
-    top: 85px;
-    left: 0%;
-    padding-bottom: 2rem;
-    font-size: 2rem;
-    height: 80vh;
-    width: 100%;
+  .navbar-item {
+    color: #b3b3b3;
+    font-size: 20px;
   }
   .navbar--btn {
     display: none;

@@ -13,6 +13,13 @@ let messageError = document.getElementById("message_error");
 let emailError = document.getElementById("email_error");
 let error = document.querySelectorAll(".error");
 
+const hamburgerBtn = document.getElementsByClassName("toggle-button")[0];
+const navBarLinks = document.getElementsByClassName("navbar-links")[0];
+
+hamburgerBtn.addEventListener("click", () => {
+  navBarLinks.classList.toggle("active");
+});
+
 form.addEventListener("submit", (e) => {
   if (nameValue.value === "" || nameValue.value == null) {
     nameError.innerText = "Please add your name!";
