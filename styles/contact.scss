@@ -69,6 +69,7 @@ body {
   margin-bottom: 1rem;
   border: none;
   background-color: $darkpink;
+  cursor: pointer;
 }
 
 .toggle-button {
@@ -218,6 +219,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     font-size: 15px;
     font-weight: bold;
     color: $san-juan-blue;
+    cursor: pointer;
   }
 }
 
@@ -240,6 +242,7 @@ input {
   padding-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+  cursor: pointer;
   @include tablet {
     width: 445px;
   }
@@ -273,6 +276,7 @@ textarea {
   padding-left: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+  cursor: pointer;
   @include tablet {
     width: 445px;
   }
@@ -345,6 +349,7 @@ textarea {
     margin-bottom: 1rem;
     border: none;
     background-color: $darkpink;
+    cursor: pointer;
     @include tablet {
       width: 173px;
       position: relative;
@@ -443,6 +448,29 @@ g {
 }
 
 .desktop__container {
-  display: flex;
-  align-items: center;
+  @include desktop {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.error {
+  color: red;
+  position: relative;
+  bottom: 25px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 11px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  border-bottom-color: red;
+  text-decoration: red;
+}
+
+.invalid::placeholder {
+  color: red;
 }

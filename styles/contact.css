@@ -81,6 +81,7 @@ body {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
 }
 
 .toggle-button {
@@ -275,6 +276,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   font-size: 15px;
   font-weight: bold;
   color: #37546d;
+  cursor: pointer;
 }
 
 .submit__container {
@@ -299,6 +301,7 @@ input {
   padding-bottom: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -342,6 +345,7 @@ textarea {
   padding-left: 1rem;
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -455,6 +459,7 @@ textarea {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -611,12 +616,48 @@ g {
   }
 }
 
-.desktop__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+@media (min-width: 1440px) {
+  .desktop__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.error {
+  color: red;
+  position: relative;
+  bottom: 25px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 11px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  border-bottom-color: red;
+  -webkit-text-decoration: red;
+          text-decoration: red;
+}
+
+.invalid::-webkit-input-placeholder {
+  color: red;
+}
+
+.invalid:-ms-input-placeholder {
+  color: red;
+}
+
+.invalid::-ms-input-placeholder {
+  color: red;
+}
+
+.invalid::placeholder {
+  color: red;
 }
 /*# sourceMappingURL=contact.css.map */
