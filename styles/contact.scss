@@ -227,6 +227,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   width: 327px;
   margin-top: 1rem;
   margin-bottom: 4rem;
+  margin-left: 9rem;
   @include tablet {
     width: 453px;
   }
@@ -250,9 +251,42 @@ input {
 
 input[type="checkbox"]#subscribe {
   visibility: visible;
-  display: block;
-  width: 15px;
+  appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  width: 30px;
+  height: 30px;
   margin-right: 2rem;
+  background: lightgray;
+}
+
+input[type="checkbox"]#subscribe:after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f00c";
+  font-weight: 900;
+  font-size: 1.3rem;
+  margin-right: 0.8rem;
+  margin-top: 0.2rem;
+  color: white;
+  display: none;
+}
+
+input[type="checkbox"]#subscribe:hover {
+  background: darkgray;
+}
+
+input[type="checkbox"]#subscribe:checked {
+  background: $darkpink;
+}
+
+input[type="checkbox"]#subscribe:checked:after {
+  display: block;
+}
+
+.subscribe__container--label {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .subscribe__container {
