@@ -129,6 +129,7 @@ header {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
@@ -165,6 +166,10 @@ header {
     width: auto;
     margin-left: 9rem;
   }
+}
+
+.header__container--btn:hover {
+  background-color: #da6c96;
 }
 
 form {
@@ -328,6 +333,11 @@ input#email-input {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
+}
+
+.navbar--btn:hover {
+  background-color: #da6c96;
 }
 
 .toggle-button {
@@ -549,6 +559,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   color: white;
   border-style: solid;
   border-color: white;
+  cursor: pointer;
   font-size: 1rem;
 }
 
@@ -556,6 +567,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   .partners__container--btn {
     margin-top: unset;
   }
+}
+
+.partners__container--btn:hover {
+  background-color: white;
+  color: #1c2731;
 }
 
 .hero__container {
@@ -619,6 +635,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   line-height: 25px;
   font-family: "Public Sans", sans-serif;
   color: #37546d;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
@@ -635,8 +652,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
 }
 
 .implement__container--textBox {
-  margin-bottom: 2rem;
-  margin-left: 3rem;
+  margin: 0 auto;
 }
 
 .simple__container {
@@ -933,6 +949,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+.ready__container--btn:hover {
+  background-color: #da6c96;
+  cursor: pointer;
+}
+
 input#email {
   width: 327px;
   padding: 1rem;
@@ -966,6 +987,7 @@ input#email {
   .footer__container--icon {
     width: 24px;
     height: 24px;
+    cursor: pointer;
   }
 }
 
@@ -1004,9 +1026,27 @@ input#email {
   font-weight: bold;
 }
 
+.footer__container--a:hover {
+  color: white;
+}
+
 .footer__container--img path,
 g {
+  cursor: pointer;
   fill: white;
+}
+
+.footer__container--img path:hover {
+  fill: #da6c96;
+}
+
+.footer__container--icon path:hover {
+  fill: #da6c96;
+}
+
+.partners__container--img path:hover {
+  fill: #da6c96;
+  cursor: pointer;
 }
 
 .bitmap3 {

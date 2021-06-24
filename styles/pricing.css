@@ -251,6 +251,12 @@ li {
   color: #37546d;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.request-btn:hover {
+  background-color: #1c2731;
+  color: white;
 }
 
 .divider {
@@ -825,9 +831,23 @@ input#email {
   font-weight: bold;
 }
 
+.footer__container--a:hover {
+  color: white;
+}
+
 .footer__container--img path,
 g {
   fill: white;
+}
+
+.footer__container--img path:hover {
+  fill: #da6c96;
+  cursor: pointer;
+}
+
+.footer__container--icon path:hover {
+  fill: #da6c96;
+  cursor: pointer;
 }
 
 .bitmap3 {

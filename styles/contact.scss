@@ -415,6 +415,21 @@ input#email {
   border-radius: 30px;
   margin-bottom: 1rem;
   border: none;
+  background-color: white;
+}
+
+.footer__container--a:hover {
+  color: white;
+}
+
+.footer__container--img path:hover {
+  fill: $charm-pink-actives;
+  cursor: pointer;
+}
+
+.footer__container--icon path:hover {
+  fill: $charm-pink-actives;
+  cursor: pointer;
 }
 
 .footer__container {
@@ -456,6 +471,11 @@ input#email {
     font-family: "Public Sans", sans-serif;
     font-weight: bold;
   }
+}
+
+.form__container--submit:hover {
+  background-color: $san-juan-blue;
+  color: white;
 }
 
 .footer__container--img path,

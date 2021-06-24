@@ -557,6 +557,21 @@ input#email {
   border-radius: 30px;
   margin-bottom: 1rem;
   border: none;
+  background-color: white;
+}
+
+.footer__container--a:hover {
+  color: white;
+}
+
+.footer__container--img path:hover {
+  fill: #da6c96;
+  cursor: pointer;
+}
+
+.footer__container--icon path:hover {
+  fill: #da6c96;
+  cursor: pointer;
 }
 
 .footer__container {
@@ -620,6 +635,11 @@ input#email {
   color: #b3b3b3;
   font-family: "Public Sans", sans-serif;
   font-weight: bold;
+}
+
+.form__container--submit:hover {
+  background-color: #37546d;
+  color: white;
 }
 
 .footer__container--img path,

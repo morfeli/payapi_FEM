@@ -78,6 +78,7 @@ header {
     margin-bottom: 1rem;
     border: none;
     background-color: $darkpink;
+    cursor: pointer;
     @include tablet {
       width: 173px;
       position: relative;
@@ -107,6 +108,10 @@ header {
       margin-left: 9rem;
     }
   }
+}
+
+.header__container--btn:hover {
+  background-color: $charm-pink-actives;
 }
 
 form {
@@ -213,6 +218,11 @@ input#email-input {
   margin-bottom: 1rem;
   border: none;
   background-color: $darkpink;
+  cursor: pointer;
+}
+
+.navbar--btn:hover {
+  background-color: $charm-pink-actives;
 }
 
 .toggle-button {
@@ -380,11 +390,17 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     color: white;
     border-style: solid;
     border-color: white;
+    cursor: pointer;
     font-size: 1rem;
     @include tablet {
       margin-top: unset;
     }
   }
+}
+
+.partners__container--btn:hover {
+  background-color: white;
+  color: $mirage-blue;
 }
 
 .hero__container {
@@ -425,6 +441,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
     line-height: 25px;
     font-family: "Public Sans", sans-serif;
     color: $san-juan-blue;
+    margin-bottom: 2rem;
     @include tablet {
       width: 610px;
     }
@@ -435,8 +452,7 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 
   &--textBox {
-    margin-bottom: 2rem;
-    margin-left: 3rem;
+    margin: 0 auto;
   }
 }
 
@@ -620,6 +636,11 @@ input[type="checkbox"]:checked ~ .toggle-button .middle {
   }
 }
 
+.ready__container--btn:hover {
+  background-color: $charm-pink-actives;
+  cursor: pointer;
+}
+
 input#email {
   width: 327px;
   padding: 1rem;
@@ -644,6 +665,7 @@ input#email {
     @include tablet {
       width: 24px;
       height: 24px;
+      cursor: pointer;
     }
   }
 
@@ -669,9 +691,27 @@ input#email {
   }
 }
 
+.footer__container--a:hover {
+  color: white;
+}
+
 .footer__container--img path,
 g {
+  cursor: pointer;
   fill: white;
+}
+
+.footer__container--img path:hover {
+  fill: $charm-pink-actives;
+}
+
+.footer__container--icon path:hover {
+  fill: $charm-pink-actives;
+}
+
+.partners__container--img path:hover {
+  fill: $charm-pink-actives;
+  cursor: pointer;
 }
 
 .bitmap3 {

@@ -211,7 +211,12 @@ li {
   color: $san-juan-blue;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  // margin-left: 5rem;
+  cursor: pointer;
+}
+
+.request-btn:hover {
+  background-color: $mirage-blue;
+  color: white;
 }
 
 .divider {
@@ -547,9 +552,23 @@ input#email {
   }
 }
 
+.footer__container--a:hover {
+  color: white;
+}
+
 .footer__container--img path,
 g {
   fill: white;
+}
+
+.footer__container--img path:hover {
+  fill: $charm-pink-actives;
+  cursor: pointer;
+}
+
+.footer__container--icon path:hover {
+  fill: $charm-pink-actives;
+  cursor: pointer;
 }
 
 .bitmap3 {
