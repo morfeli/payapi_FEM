@@ -72,6 +72,10 @@ body {
   cursor: pointer;
 }
 
+.navbar--btn:hover {
+  background-color: $charm-pink-actives;
+}
+
 .toggle-button {
   position: absolute;
   top: 0.75rem;

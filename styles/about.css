@@ -81,6 +81,11 @@ body {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
+}
+
+.navbar--btn:hover {
+  background-color: #da6c96;
 }
 
 .toggle-button {
