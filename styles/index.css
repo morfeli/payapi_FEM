@@ -99,6 +99,12 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (min-width: 1440px) {
@@ -139,7 +145,6 @@ header {
   font-family: "Public Sans", sans-serif;
   font-size: 15px;
   color: #6b8294;
-  padding-top: 2rem;
 }
 
 @media (min-width: 1440px) {

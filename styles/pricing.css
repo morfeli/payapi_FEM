@@ -7,6 +7,13 @@
 
 body {
   background-color: #edf3f8;
+  overflow: visible;
+}
+
+.bitmap {
+  background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-size: 400rem;
 }
 
 .navbar {
@@ -81,6 +88,11 @@ body {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
+}
+
+.navbar--btn:hover {
+  background-color: #da6c96;
 }
 
 .toggle-button {
@@ -759,6 +771,7 @@ li {
   margin-bottom: 1rem;
   border: none;
   background-color: #b9416f;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

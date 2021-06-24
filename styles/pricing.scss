@@ -8,12 +8,14 @@
 
 body {
   background-color: #edf3f8;
+  overflow: visible;
 }
 
-// .bitmap {
-//   background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
-//   background-repeat: no-repeat;
-// }
+.bitmap {
+  background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-size: 400rem;
+}
 
 .navbar {
   display: flex;
@@ -69,6 +71,11 @@ body {
   margin-bottom: 1rem;
   border: none;
   background-color: $darkpink;
+  cursor: pointer;
+}
+
+.navbar--btn:hover {
+  background-color: $charm-pink-actives;
 }
 
 .toggle-button {
@@ -521,6 +528,7 @@ li {
     margin-bottom: 1rem;
     border: none;
     background-color: $darkpink;
+    cursor: pointer;
     @include tablet {
       width: 173px;
       position: relative;

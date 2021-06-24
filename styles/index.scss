@@ -58,8 +58,8 @@ header {
     height: 285px;
     display: flex;
     flex-direction: column;
-    // align-items: center;
-    // justify-content: center;
+    align-items: center;
+    justify-content: center;
     @include desktop {
       width: 546px;
       align-items: flex-end;
@@ -90,7 +90,7 @@ header {
     font-family: "Public Sans", sans-serif;
     font-size: 15px;
     color: $light-san-juan-blue;
-    padding-top: 2rem;
+    // padding-top: 2rem;
     @include desktop {
       margin-right: 19rem;
     }
